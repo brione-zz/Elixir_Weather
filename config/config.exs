@@ -20,6 +20,7 @@ use Mix.Config
 #
 #     config :logger, level: :info
 #
+config :weather, noaa_url: "http://w1.weather.gov/xml/current_obs"
 
 # It is also possible to import configuration files, relative to this
 # directory. For example, you can emulate configuration per environment
